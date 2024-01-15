@@ -1,10 +1,10 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 	const freq = {}
-	for(const ch of inputStr){
+	for(const ch of str){
 		freq[ch] = (freq[ch] || 0)+1
 	}
-	 for(const ch of inputStr){
+	 for(const ch of str){
 		 if(freq[ch]===1){
 			 return ch
 		 }
